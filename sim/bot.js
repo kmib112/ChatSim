@@ -46,7 +46,7 @@ function callback (err, api)
 						return;
 					} else
 					SimsimiAnswered = text.response;
-					api.sendMessage(SimsimiAnswered+" <3", message.threadID);
+					api.sendMessage(SimsimiAnswered+" <3 Bot", message.threadID);
 					api.markAsRead(message.threadID);
 					console.log("Answered:"+SimsimiAnswered);
 				}
