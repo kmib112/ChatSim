@@ -4,7 +4,7 @@ var request = require("request");
 var login = require("facebook-chat-api");
 var SimsimiAnswered;
 var text;
-var botkey = "http://sandbox.api.simsimi.com/request.p?key=c626fda0-1135-4a65-83ec-49da13eefdc1&lc=en&ft=1.0&text=";
+var botkey = "http://sandbox.api.simsimi.com/request.p?key=c626fda0-1135-4a65-83ec-49da13eefdc1&lc=vn&ft=1.0&text=";
 login(
 	{	
 	email: "kmib112@gmail.com", 
